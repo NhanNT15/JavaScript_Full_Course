@@ -1,0 +1,98 @@
+p,
+h1,
+h2 {
+  margin: 0px;
+  font-family: Arial;
+}
+
+.mainbox {
+  border: 1px solid gray;
+  border-radius: 8px;
+  background-color: rgba(230, 230, 230, 0.8);
+  padding: 12px 8px;
+}
+
+.title-container,
+.subtitle-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.main-panel {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+
+.number-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 240, 240, 0.4);
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.score {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.button-section {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 12px;
+}
+
+.TeamA-section {
+  background-color: rgba(144, 222, 144, 0.8);
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.TeamB-section {
+  background-color: rgb(225, 163, 163);
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.plus-button,
+.reset-button,
+.minus-button {
+  font-weight: bold;
+  width: 50px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.plus-button {
+  font-size: 18px;
+  background-color: rgb(101, 224, 101);
+}
+
+.minus-button {
+  font-size: 18px;
+  background-color: rgb(244, 82, 82);
+}
+
+.reset-button {
+  font-size: 12px;
+  background-color: rgb(229, 229, 123);
+}
+
+.plus-button:hover,
+.reset-button:hover,
+.minus-button:hover {
+  cursor: pointer;
+}
+
+.plus-button:active,
+.reset-button:active,
+.minus-button:active {
+  opacity: 0.6;
+  transition: opacity 200ms;
+}
