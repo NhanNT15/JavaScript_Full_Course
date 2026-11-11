@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="Temperature_Conversion_Program.css" />
+  </head>
+
+  <body>
+    <div id="mainbox">
+      <div id="title-container">
+        <p id="title">TEMPERATURE CONVERSION</p>
+      </div>
+      <div id="input-section">
+        <input id="input-box" type="number" placeholder="..." />
+      </div>
+      <div id="select-section">
+        <input
+          class="rad-button"
+          id="F-to-C-button"
+          type="radio"
+          name="selection"
+        />
+        <label class="label-text" id="F-to-C-label" for="F-to-C-button"
+          >Fahrenheit &#8594; Celsius</label
+        >
+        <br />
+        <input
+          class="rad-button"
+          id="C-to-F-button"
+          type="radio"
+          name="selection"
+        />
+        <label class="label-text" id="C-to-F-label" for="C-to-F-button"
+          >Celsius &#8594; Fahrenheit
+        </label>
+      </div>
+      <div id="submit-button-container">
+        <button id="submit-button">Convert</button>
+      </div>
+      <div id="output-section">
+        <p id="output-message">Please type in the textbox</p>
+      </div>
+    </div>
+    <script src="Temperature_Conversion_Program.js"></script>
+  </body>
+</html>
